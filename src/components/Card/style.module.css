@@ -1,0 +1,28 @@
+.Card {
+  width: 24%;
+  height: 350px;
+  border-radius: 15px 15px 0 0;
+  background: rgb(255, 255, 241);
+  box-shadow: 5px 2px #8392a2, 2px 4px rgb(175, 215, 255), 3px 5px #d7d9db,
+    2px 3px#bfc2c4;
+  cursor: pointer;
+  margin-top: 4%;
+}
+
+.Card img {
+  width: 95%;
+  height: 90%;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .Card {
+    width: 45%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    background: rgb(255, 255, 241);
+    box-shadow: 5px 2px #8392a2, 2px 4px rgb(175, 215, 255), 3px 5px #d7d9db,
+      2px 3px#bfc2c4;
+    cursor: pointer;
+  }
+}

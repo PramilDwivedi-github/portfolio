@@ -1,0 +1,30 @@
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://www.unsell.design/wp-content/uploads/2020/05/f6f57aa2-abstract-yellow-background.jpg");
+}
+.skills_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.skill_description {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.skill {
+  flex: 43%;
+}
+
+@media (max-width: 767px) {
+  .skill {
+    flex: 85%;
+    padding: 2%;
+  }
+}
